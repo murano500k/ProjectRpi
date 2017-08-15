@@ -1,10 +1,12 @@
-export r1pin=22
-export r2pin=25
-export r3pin=24
-export r4pin=23
-export r5pin=21
+export r1=22
+export r2=23
+export r3=24
+export r4=25
+export r5=21
 gpio mode $r1pin out
 gpio mode $r2pin out
 gpio mode $r3pin out
 gpio mode $r4pin out
 gpio mode $r5pin out
+export piip="172.22.89.15"
+alias syncrpi="rsync -rvl /home/artem/projects/ProjectRpi pi@$piip:/home/pi/ProjectRpi"
