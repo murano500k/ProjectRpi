@@ -1,0 +1,10 @@
+export r1pin=22
+export r2pin=25
+export r3pin=24
+export r4pin=23
+export r5pin=21
+gpio mode $r1pin out
+gpio mode $r2pin out
+gpio mode $r3pin out
+gpio mode $r4pin out
+gpio mode $r5pin out
